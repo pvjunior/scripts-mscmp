@@ -2,15 +2,18 @@
   "policies": {
     "WebsiteFilter": {
       "Block": [
-	"https://judge.beecrowd.com/pt/questions/*",
-	"https://judge.beecrowd.com/en/questions/*",
-	"*://udebug.com/*",
-	"*://www.udebug.com/*",
+      	"https://judge.beecrowd.com/pt/questions/*",
+      	"https://judge.beecrowd.com/en/questions/*",
+      	"*://udebug.com/*",
+	      "*://www.udebug.com/*",
 
         "https://google.com/search*",
         "https://www.google.com/search*",
         "https://www.google.com/webhp*",
         "https://www.google.com/complete/search*",
+        "https://*.bing.com/*",
+        "https://*.duckduckgo.com/*",
+        "https://*.search.brave.com/*",
 
         "https://gemini.google.com/*",
         "https://bard.google.com/*",
@@ -40,6 +43,7 @@
         "https://*.perplexity.ai/*",
         "https://poe.com/*",
         "https://you.com/*",
+        "https://*.mistral.ai/*",
 
         "https://copilot.microsoft.com/*",
         "https://githubcopilot.com/*",
